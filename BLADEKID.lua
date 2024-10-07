@@ -547,8 +547,8 @@ if executorName == "Solara" then
         coroutine.resume(AntiKick)
 else
     local Notify = Library:MakeNotify({
-        Title = "CRACKLED HUB BY FROSTLUA ",
-        Text = "CRACKLED HUB BY FROSTLUA  has determined that your executor, " .. executorName .. ", is fully compatible, ensuring an optimal and satisfying experience with our product.",
+        Title = "LDQ Hub",
+        Text = "LDQ Hub has determined that your executor, " .. executorName .. ", is fully compatible, ensuring an optimal and satisfying experience with our product.",
         Time = 5
       })
 
@@ -632,7 +632,6 @@ local Tab5 = Window:MakeTab({"| Tools", "rbxassetid://18170704671"})
 
 Window:SelectTab(Tab1)
 
-local Paragraph = Tab1:AddParagraph({"Join us discord for information about updates!", "​"})
 
 Window:AddMinimizeButton({
     Button = {
