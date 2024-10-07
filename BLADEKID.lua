@@ -1,6 +1,5 @@
 local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/cracklua/cracks/m/sources/pitbull/Library/Key%20System.lua"))()
 
-setclipboard("https://discord.gg/d8Yp6qFmSH")
 
 local Window = ArrayField:CreateWindow({
     Name = "LDQ Hub",
