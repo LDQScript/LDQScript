@@ -1,0 +1,10 @@
+local oldr = request 
+getgenv().request = function(options)
+    if options.Headers then
+        options.Headers["User-Agent"] = "Switch"
+    else
+        options.Headers = {["User-Agent"] = "Switch"}
+    end
+    local response = oldr(options)
+    return response
+end
