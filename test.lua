@@ -5,7 +5,7 @@ local notrejoin = false
 
 local foundPetName = nil
 
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1381051554206843011/Oc2nImremPuZt_rKhA-l9Yyrj8IKfTu6ovpIcdqjO5swqbC4TEwx4WHNKzGkTJjAe_ge"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1381785773908426812/Oo43lGwU1BxUExJ9FmhCz69mQQhgGn_tySXzYZ9BHMOzQl3xINvk2OPQ8A8xN1muoR7P"
 
 local function sendWebhook(petName)
     local HttpService = game:GetService("HttpService")
